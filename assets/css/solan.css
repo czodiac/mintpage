@@ -87,7 +87,8 @@ body {
 
 .timer-box {
   background: #13a58f;
-  padding: 25px 50px;
+  padding: 15px 50px;
+  font-size: 1.5em;
   transition: all .3s ease-in-out;
   color: #fff;
   border-radius: 10px;
@@ -96,12 +97,12 @@ body {
 .timer-font {
   font-size: 25px;
   font-weight: bold;
-  margin-top: 20px;
+  /* margin-top: 20px; */
 }
 
 .mint-info {
   font-size: 1.45em;
-  padding: 50px 0 10px 0;
+  padding: 0px 0 10px 0;
 }
 
 .content {
@@ -112,9 +113,6 @@ body {
   margin-bottom: 100px;
 }
 
-.logo {
-  padding: 20px 0 0 0;
-}
 
 .title {
   color: white;

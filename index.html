@@ -31,20 +31,25 @@
     </header>
 
     <main class="px-3">
-      <h1>Phase I : Big Bang</h1>
+      <h1>Phase I: Big Bang</h1>
+      <p style="font-size: 1.4em">The first 5,000 planets that will be located in<br/>the center
+        of Solanio universe</p>
       <div class="logo">
-        <img src="./assets/img/logo.gif" />
+        <img src="./assets/img/logo.gif" style="width: 450px; height: 450px;"/>
       </div>
-      <p class="lead content">Own the first 5,000 planets that will be located in the center
-        of Solanio universe!</p>
+    
+      <div class="mint-info">
+        <p>Drop Date: 2:00PM PST October 20, 2021</p>
+        <p><b>Minted</b>: 0 / 5000</p>        
+      </div>
+      
+      
       <div class="timer-box">
-        Drop Date: 2:00PM PST October 20, 2021
-        <div class="timer-font" id="timer"></div>
-      </div>
-      <div class="mint-info"><b>Minted</b>: 0 / 5000</div>
-      <p class="lead">
+      <div class="timer-font" id="timer"></div>
+      
+      <!-- <p class="lead">
         <a href="#" class="btn btn-lg btn-secondary fw-bold border-white bg-white">Mint (Coming soon)</a>
-      </p>
+      </p> -->
     </main>
 
     <footer class="mt-auto text-white-50">
@@ -72,7 +77,7 @@
       var seconds = Math.floor((distance % (1000 * 60)) / 1000);
         
       // Output the result in an element with id="demo"
-      document.getElementById(timerId).innerHTML = days + "d " + hours + "h "
+      document.getElementById(timerId).innerHTML = "Minting begins in " + days + "d " + hours + "h "
       + minutes + "m " + seconds + "s";
         
       // If the count down is over, write some text 
